@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: 'Lato';
+}
+
+.wrapper {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#userInput {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  width: 200px;
+  padding: 5px;
+  color: #112366;
+  text-align: center;
+}
+
+#userInput:focus {
+  border: 2px solid #bada55;
+}
+
+.myOutput {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
