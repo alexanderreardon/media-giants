@@ -20,7 +20,7 @@ $(document).ready(function() {
 	      $myOutput.html('<p>Comcast</p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Comcast_Logo.svg/2000px-Comcast_Logo.svg.png" width="300">');
 	    }
 	    if ($.inArray($userInput.val(), $tw) >= 0) {
-	      $myOutput.html('<p>Time Warner</p><img src="http://www.officeaddresshelplinenumber.com/wp-content/uploads/2016/02/time-warner.png" width="300">');
+	      $myOutput.html('<p>Time Warner</p><img src="http://cdn1.thecomeback.com/wp-content/uploads/sites/94/2014/12/Time-Warner-Cable.png" width="300">');
 	    };    
 	    if ($.inArray($userInput.val(), $fox) >= 0) {
 	      $myOutput.html('<p>21st Century Fox</p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/21st_Century_Fox_logo.svg/2000px-21st_Century_Fox_logo.svg.png" width="300">');
