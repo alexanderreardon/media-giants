@@ -17,31 +17,31 @@ $(document).ready(function() {
 	    $(this).val($(this).val().toUpperCase());
 	    $myOutput.html(''); 
 	    if ($.inArray($userInput.val(), $comcast) >= 0) {
-	      $myOutput.html('<p>Comcast</p><img src="images/Comcast.png" width="300">');
+	      $myOutput.html('<p>Comcast</p><img src="/images/Comcast.png" width="300">');
 	    }
 	    if ($.inArray($userInput.val(), $tw) >= 0) {
-	      $myOutput.html('<p>Time Warner</p><img src="images/Time-Warner-Cable.png" width="300">');
+	      $myOutput.html('<p>Time Warner</p><img src="/images/Time-Warner-Cable.png" width="300">');
 	    };    
 	    if ($.inArray($userInput.val(), $fox) >= 0) {
-	      $myOutput.html('<p>21st Century Fox</p><img src="images/21st-Century-Fox.png" width="300">');
+	      $myOutput.html('<p>21st Century Fox</p><img src="/images/21st-Century-Fox.png" width="300">');
 	    };    
 	    if ($.inArray($userInput.val(), $disney) >= 0) {
-	      $myOutput.html('<p>The Walt Disney Company</p><img src="images/The-Walt-Disney-Company.png" width="300">');
+	      $myOutput.html('<p>The Walt Disney Company</p><img src="/images/The-Walt-Disney-Company.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $na) >= 0) {
-	      $myOutput.html('<p>National Amusements</p><img src="images/National-Amusements.png" width="300">');
+	      $myOutput.html('<p>National Amusements</p><img src="/images/National-Amusements.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $twna) >= 0) {
-	      $myOutput.html('<p>50% National Amusements, 50% Time Warner</p><img src="images/National-Amusements.png" width="300"><br><img src="images/Time-Warner-Cable.png" width="300">');
+	      $myOutput.html('<p>50% National Amusements, 50% Time Warner</p><img src="/images/National-Amusements.png" width="300"><br><img src="/images/Time-Warner-Cable.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $amc) >= 0) {
-	      $myOutput.html('<p>AMC Networks</p><img src="images/AMC-Networks.png" width="300">');
+	      $myOutput.html('<p>AMC Networks</p><img src="/images/AMC-Networks.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $lionsgate) >= 0) {
-	       $myOutput.html('<p>Lionsgate</p><img src="images/Lionsgate.png"" width="300">');
+	       $myOutput.html('<p>Lionsgate</p><img src="/images/Lionsgate.png"" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $discovery) >= 0) {
-	      $myOutput.html('<p>Discovery Communications</p><img src="images/Discovery-Communications.png" width="300">');
+	      $myOutput.html('<p>Discovery Communications</p><img src="/images/Discovery-Communications.png" width="300">');
 	    };
 	  
 	  });
