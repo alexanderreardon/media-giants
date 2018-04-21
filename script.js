@@ -12,36 +12,44 @@ $(document).ready(function() {
 	var $amc = ['AMC', 'AMC NETWORKS', 'IFC', 'WE TV', 'WETV', 'SUNDANCETV', 'SUNDANCE', 'SUNDANCE TV'];
 	var $lionsgate = ['LIONSGATE', 'LIONSGATE FILMS', 'STARZ', 'ENCORE', 'MOVIEPLEX', 'INDIEPLEX', 'SUMMIT ENTERTAINMENT', 'STARZ ENCORE'];
 	var $discovery = ['DISCOVERY', 'DISCOVERY CHANNEL', 'ANIMAL PLANET', 'TLC', 'SCIENCE', 'VELOCITY', 'OPRAH WINFREY NETWORK', 'DESTINATION AMERICA', 'MILITARY CHANNEL', 'DISCOVERY SCIENCE', 'SCIENCE CHANNEL'];
+	var $att = ['ATT', 'AT&T', 'DIRECTV', 'AT AND T', 'DIRECTTV', 'DIRECT TV', 'CRICKET WIRELESS', 'CRICKET']; 
+	var $mlb = ['MLB', 'MLB NETWORK', 'MLB NETWORKS']; 
 
 	$userInput.keyup(function() {
 	    $(this).val($(this).val().toUpperCase());
 	    $myOutput.html(''); 
 	    if ($.inArray($userInput.val(), $comcast) >= 0) {
-	      $myOutput.html('<p>Comcast</p><img src="/images/Comcast.png" width="300">');
+	      $myOutput.html('<p>Comcast</p><img src="images/Comcast.png" width="300">');
 	    }
 	    if ($.inArray($userInput.val(), $tw) >= 0) {
-	      $myOutput.html('<p>Time Warner</p><img src="/images/Time-Warner-Cable.png" width="300">');
+	      $myOutput.html('<p>Time Warner</p><img src="images/Time-Warner-Cable.png" width="300">');
 	    };    
 	    if ($.inArray($userInput.val(), $fox) >= 0) {
-	      $myOutput.html('<p>21st Century Fox</p><img src="/images/21st-Century-Fox.png" width="300">');
+	      $myOutput.html('<p>21st Century Fox</p><img src="images/21st-Century-Fox.png" width="300">');
 	    };    
 	    if ($.inArray($userInput.val(), $disney) >= 0) {
-	      $myOutput.html('<p>The Walt Disney Company</p><img src="/images/The-Walt-Disney-Company.png" width="300">');
+	      $myOutput.html('<p>The Walt Disney Company</p><img src="images/The-Walt-Disney-Company.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $na) >= 0) {
-	      $myOutput.html('<p>National Amusements</p><img src="/images/National-Amusements.png" width="300">');
+	      $myOutput.html('<p>National Amusements</p><img src="images/National-Amusements.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $twna) >= 0) {
-	      $myOutput.html('<p>50% National Amusements, 50% Time Warner</p><img src="/images/National-Amusements.png" width="300"><br><img src="/images/Time-Warner-Cable.png" width="300">');
+	      $myOutput.html('<p>50% National Amusements, 50% Time Warner</p><img src="images/National-Amusements.png" width="300"><br><img src="/images/Time-Warner-Cable.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $amc) >= 0) {
-	      $myOutput.html('<p>AMC Networks</p><img src="/images/AMC-Networks.png" width="300">');
+	      $myOutput.html('<p>AMC Networks</p><img src="images/AMC-Networks.png" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $lionsgate) >= 0) {
-	       $myOutput.html('<p>Lionsgate</p><img src="/images/Lionsgate.png"" width="300">');
+	       $myOutput.html('<p>Lionsgate</p><img src="images/Lionsgate.png"" width="300">');
 	    };
 	    if ($.inArray($userInput.val(), $discovery) >= 0) {
-	      $myOutput.html('<p>Discovery Communications</p><img src="/images/Discovery-Communications.png" width="300">');
+	      $myOutput.html('<p>Discovery Communications</p><img src="images/Discovery-Communications.png" width="300">');
+			};
+			if ($.inArray($userInput.val(), $att) >= 0) {
+	      $myOutput.html('<p>AT&T</p><img src="images/AT&T.png" width="300">');
+			};
+			if ($.inArray($userInput.val(), $mlb) >= 0) {
+				$myOutput.html('<p>67% Major League Baseball<br/>16.67% AT&T<br/>5.44% Comcast<br/>5.44% Charter Communications<br/>5.44% Cox Communications</p><br/><img src="images/MLB.png" width="300"><br/><img src="images/AT&T.png" width="300"><br/><img src="images/Comcast.png" width="300"><br/><img src="images/Charter-Communications.png" width="300"><br/><img src="images/Cox-Communications.png" width="300">');
 	    };
 	  
 	  });

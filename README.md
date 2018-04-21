@@ -13,3 +13,9 @@ TO DO:
 - Set the output area to be a fixed height (not expand/contract as input is typed)
 - Add more channels, movie studios, media outlets
 - Compress image files
+- Make responsive
+
+*Update 4/21/2018:*
+    - Added MLB Network and AT&T to list of responses. 
+    - Added logos for AT&T, MLB, Cox, Charter.
+    - Imported Lato web font from Google.
